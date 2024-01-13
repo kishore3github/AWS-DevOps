@@ -11,6 +11,7 @@ To installing the java on AWS EC2 linux instance :
 Ensure that your software packages are up to date on your instance by using the following command to perform a quick software update:
 
 `sudo yum update –y`
+
 Add the Jenkins repo using the following command:
 
 `sudo wget -O /etc/yum.repos.d/jenkins.repo \
@@ -40,4 +41,4 @@ Start Jenkins as a service:
 
 You can check the status of the Jenkins service using the command:
 
-` sudo systemctl status jenkins`
+`sudo systemctl status jenkins`
